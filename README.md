@@ -1,6 +1,6 @@
 #List Fonts
 
-A very basic PhotoShop script to list all fonts used in a PSD. The script looks at all text layers, and will also find multiple fonts from the same text layer. The results are shown in a dialog box, the contents of which can be selected, copied and pasted. 
+A very basic PhotoShop script to list all fonts used in the currently open and active PSD. The script looks at all text layers, and will also find multiple fonts from the same text layer. The results are shown in a dialog box, the contents of which can be selected, copied and pasted. 
 
 ## Installation
 
@@ -12,5 +12,8 @@ From the "File" menu, select "Scripts" and then "List Fonts". A dialog box will 
 
 ## TODO
 
-* Add warning if no documents are open
-* Handle no results a little nicer
+* Handle zero results a little nicer
+
+## Disclaimer
+
+I've only tested this on my Mac, running Adobe Photoshop CC 2014. It might not work for you.
