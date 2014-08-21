@@ -60,7 +60,7 @@ function findFonts() {
         }
     }
 
-    // return a unique and sorted array of font names
+    // Return a unique and sorted array of font names
     return arrayUnique(fonts).sort();
 }
 
