@@ -64,6 +64,9 @@ function findFonts() {
     return arrayUnique(fonts).sort();
 }
 
-var fontsFound = findFonts();
-
-alert(fontsFound.length +' fonts found \n'+fontsFound.join('\n'));
+if (documents.length) {
+    var fontsFound = findFonts();
+    alert(fontsFound.length +' fonts found \n'+fontsFound.join('\n'));
+} else {
+    alert('No fonts found \nOpen a PSD before running this script',);
+}
