@@ -18,7 +18,7 @@ From the "File" menu, select "Scripts" and then "List Fonts". A dialog box will 
 
 ## Disclaimer
 
-I've only tested this on my Mac, running Adobe Photoshop CC 2014. It might not work for you.
+Tested on Mac and PC (Win 8.1), running Adobe Photoshop CC 2014. It might not work for you.
 
 ## Screenshot
 
