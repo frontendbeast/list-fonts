@@ -55,8 +55,12 @@ function findFonts() {
 
         // Loop through each style and get the font name
         while(countStyles--) {
-            var fontName = layerStyles.getObjectValue(countStyles).getObjectValue(stringIDToTypeID('textStyle')).getString(stringIDToTypeID('fontPostScriptName'));
-            fonts.push(fontName);
+            try {
+                var fontName = layerStyles.getObjectValue(countStyles).getObjectValue(stringIDToTypeID('textStyle')).getString(stringIDToTypeID('fontPostScriptName'));
+                fonts.push(fontName);
+            } catch (e) {
+                continue;
+            }
         }
     }
 
